@@ -6,7 +6,7 @@ def solve(string):
     totals_list = []
     current_total = 0
     # iterate over the string while getting the total
-    for letter in string:
+    for letter in str(string):
         if letter not in ['a','e','i','o','u']:
             # convert current letter to its unicode representation and subtract 96
             current_total += ord(letter.lower()) - 96
