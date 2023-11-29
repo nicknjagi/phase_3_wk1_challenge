@@ -5,7 +5,10 @@
 
 #### Installations / How to use
   1. Clone the repo.
-  2. Open the terminal and run `python {filename}` where filename is the name of the file to execute.
+  2. Open your terminal and run:
+    - ```pipenv install``` to install dependencies.
+    - ```pipenv shell``` to activate the project's virtualenv. 
+    - ```pytest``` to see if all tests pass
 
 
 ### Challenge 1: Converting 12-hour time to 24-hour time
