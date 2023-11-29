@@ -6,7 +6,7 @@
 #### Installations / How to use
   1. Clone the repo.
   2. ```cd``` to cloned repo and open the folder in vscode
-  2. Open the terminal and run:
+  2. Open the terminal in vscode and run:
     - ```pipenv install``` to install dependencies.
     - ```pipenv shell``` to activate the project's virtualenv. 
     - ```pytest``` to see if all tests pass
