@@ -1,4 +1,4 @@
-from ..time_converter import convert_time, is_valid
+from phase_3_wk1_challenge.time_converter import convert_time, is_valid
 
 def test_period_am():
     assert(convert_time('8:30 am') == '0830')

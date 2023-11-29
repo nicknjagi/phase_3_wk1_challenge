@@ -1,4 +1,4 @@
-from ..two_nums_positive import check_positives
+from phase_3_wk1_challenge.two_nums_positive import check_positives
 
 def test_positives():
     assert(check_positives(2, 4, -3) == True)
